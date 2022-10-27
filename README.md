@@ -29,4 +29,4 @@ Thought proccess:
 
 1. I implemented a 2xX grid, where X is based on the number of total cards.
 2. I opted to use MUI for the entire project. The cards, dropdown menu, grid are all imported from MUI. I felt that MUI provided an elegant solution.
-3. Some things are not perfect and I would improve given more time: I would modularize the code further, currently only 1 componenet stands entirely on its own (CustomCard) by making the filter/dropdown menu its own componenet, and improve the use of layout, integrate proper css, etc.
+3. Some things are not perfect and I would improve given more time: I would modularize the code further, currently only 1 componenet stands entirely on its own (CustomCard) by making the filter/dropdown menu its own componenet, and improve the use of layout, integrate proper css, etc. Finally, I noticed very late that the cards are not perfectly the same size, due to what I assume is picture size difference. I would need to fix that as well.
