@@ -22,7 +22,6 @@ function App() {
 
   const handleChange = (event) => {
     setCategory(event.target.value);
-    console.log("category", event.target.value);
   };
   return (
     <div>
@@ -31,7 +30,7 @@ function App() {
         <FormControl
           sx={{ marginLeft: "620px", marginTop: "20px", width: "100px" }}
         >
-          <InputLabel id="demo-simple-select-label">Category</InputLabel>
+          <InputLabel id="category-label">Category</InputLabel>
           <Select value={category} label="Category" onChange={handleChange}>
             <MenuItem value={"dog"}>Dog</MenuItem>
             <MenuItem value={"cat"}>Cat</MenuItem>
