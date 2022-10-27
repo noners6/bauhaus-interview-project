@@ -28,7 +28,9 @@ function App() {
     <div>
       <CssBaseline />
       <Container>
-        <FormControl sx={{ marginLeft: "660px" }}>
+        <FormControl
+          sx={{ marginLeft: "620px", marginTop: "20px", width: "100px" }}
+        >
           <InputLabel id="demo-simple-select-label">Category</InputLabel>
           <Select value={category} label="Category" onChange={handleChange}>
             <MenuItem value={"dog"}>Dog</MenuItem>
